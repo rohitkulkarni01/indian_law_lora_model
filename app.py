@@ -121,7 +121,7 @@ with gr.Blocks() as demo:
     gr.ChatInterface(
         fn=chat_stream,
         title="⚖️ AI Indian Corporate Lawyer",
-        description="Ask conceptual or statutory questions regarding Indian Corporate Law, Companies Act, 2013, and SEBI regulations."
+        description="Ask conceptual or statutory questions regarding Indian Corporate Law."
     )
 
 if __name__ == "__main__":
